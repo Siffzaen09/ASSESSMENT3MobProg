@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/tentang_aplikasi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_benda_jajar_genjang"
+        android:title="@string/benda_jajar_genjang"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_histori"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="@string/histori"
+        app:showAsAction="ifRoom" />
+</menu>
